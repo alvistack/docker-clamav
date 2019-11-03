@@ -4,6 +4,7 @@
 
 ### Major Changes
 
+  - Upgrade minimal Ansible support to 2.9.0
 ## 0.100.3-0alvistack1 - 2019-09-23
 
   - Ubuntu 18.04 based
