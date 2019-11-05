@@ -24,7 +24,7 @@ Start clamav:
 
     # Pull latest image
     docker pull alvistack/clamav
-
+    
     # Run as detach
     docker run \
         -itd \
