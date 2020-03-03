@@ -14,19 +14,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-- hosts: all
-  remote_user: root
-  roles:
-    - role: bootstrap
-    - role: locales
-    - role: timezone
-    - role: python
-    - role: ansible
-    - role: tini
-    - role: gosu
-
-- hosts: all
-  remote_user: root
-  roles:
-    - role: clamav
-    - role: localhost
+- name: flush cache
+  shell: |
+    set -o pipefail
+    rm -rf /var/lib/apt/lists/*
+  args:
+    executable: "/bin/bash"
+  changed_when: false
+  ignore_errors: true
