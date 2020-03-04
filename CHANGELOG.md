@@ -1,10 +1,15 @@
 # Docker Image Packaging for ClamAV
 
-## 0.100.3-XalvistackY - TBC
+## 0.102.2-XalvistackY - TBC
+
+### Major Changes
+
+## 0.102.2-4alvistack1 - 2020-03-04
 
 ### Major Changes
 
   - Revamp with Molecule and `docker commit`
+  - Hotfix for systemd
 
 ## 0.100.3-3alvistack1 - 2020-01-15
 
