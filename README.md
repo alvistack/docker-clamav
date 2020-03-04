@@ -11,7 +11,7 @@ Learn more about ClamAV: <https://www.clamav.net/>
 
 ## Supported Tags and Respective `Dockerfile` Links
 
-  - [`0.100`, `latest`](https://github.com/alvistack/docker-clamav/blob/master/molecule/0.100/Dockerfile.j2)
+  - [`0.102`, `latest`](https://github.com/alvistack/docker-clamav/blob/master/molecule/0.102/Dockerfile.j2)
 
 ## Overview
 
