@@ -14,21 +14,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-namespace: alvistack
-name: docker-clamav
-description: Docker Image Packaging for ClamAV
-
-version: VERSION
-readme: README.md
-license: Apache-2.0
-
-repository: https://github.com/alvistack/docker-clamav
-documentation: https://github.com/alvistack/docker-clamav
-homepage: https://github.com/alvistack/docker-clamav
-issues: https://github.com/alvistack/docker-clamav/issues
-
-dependencies: {}
-tags:
-  - system
-authors:
-  - Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+- import_playbook: ../../playbooks/converge.yml

@@ -4,11 +4,12 @@
 
 ### Major Changes
 
-## 0.102.2-4alvistack1 - 2020-03-04
+## 0.102.2-4alvistack4 - 2020-03-05
 
 ### Major Changes
 
   - Revamp with Molecule and `docker commit`
+  - Consolidate molecule tests into `default` (noop)
   - Hotfix for systemd
 
 ## 0.100.3-3alvistack1 - 2020-01-15
