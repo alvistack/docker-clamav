@@ -1,6 +1,6 @@
 # Docker Image Packaging for ClamAV
 
-[![Travis](https://img.shields.io/travis/alvistack/docker-clamav.svg)](https://travis-ci.org/alvistack/docker-clamav)
+[![Travis](https://img.shields.io/travis/com/alvistack/docker-clamav.svg)](https://travis-ci.com/alvistack/docker-clamav)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/clamav.svg)](https://hub.docker.com/r/alvistack/clamav/)
@@ -49,7 +49,7 @@ The `latest` tag matches the most recent [GitHub Release](https://github.com/alv
 
 ### `alvistack/clamav:<version>`
 
-The version tags are rolling release rebuild by [Travis](https://travis-ci.org/alvistack/docker-clamav) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+The version tags are rolling release rebuild by [Travis](https://travis-ci.com/alvistack/docker-clamav) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
