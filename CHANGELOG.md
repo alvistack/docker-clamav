@@ -4,6 +4,12 @@
 
 ### Major Changes
 
+## 0.102.2-4alvistack7 - 2020-04-11
+
+### Major Changes
+
+  - Debug build
+
 ## 0.102.2-4alvistack4 - 2020-03-05
 
 ### Major Changes
