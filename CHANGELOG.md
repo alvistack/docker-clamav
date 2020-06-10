@@ -1,9 +1,15 @@
 # Docker Image Packaging for ClamAV
 
-## 0.102.2-XalvistackY - TBC
+## 0.102.3-XalvistackY - TBC
 
 ### Major Changes
 
+## 0.102.3-4alvistack1 - 2020-06-10
+
+### Major Changes
+
+  - Revamp `create`, `side_effect`, `verify` and `destroy` logic
+  - Replace `tini` with `catatonit`
   - Rename `post_tasks.yml` as `side_effect.yml`
   - Upgrade base image to Ubuntu 20.04
 

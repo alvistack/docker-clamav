@@ -46,5 +46,5 @@ WORKDIR "/host-fs"
 EXPOSE 8080
 EXPOSE 8081
 
-ENTRYPOINT [ "tini", "-g", "--", "docker-entrypoint.sh" ]
+ENTRYPOINT [ "catatonit", "-g", "--", "docker-entrypoint.sh" ]
 CMD        [ "clamscan", "-v", "-r", "-i", "/host-fs" ]
