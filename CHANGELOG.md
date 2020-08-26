@@ -1,6 +1,10 @@
 # Docker Image Packaging for ClamAV
 
-## 0.102.3-XalvistackY - TBC
+## 0.102.4-XalvistackY - TBC
+
+### Major Changes
+
+## 0.102.4-4alvistack1 - 2020-08-26
 
 ### Major Changes
 
