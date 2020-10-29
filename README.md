@@ -9,9 +9,9 @@ ClamAV is an open source antivirus engine for detecting trojans, viruses, malwar
 
 Learn more about ClamAV: <https://www.clamav.net/>
 
-## Supported Tags and Respective `Dockerfile` Links
+## Supported Tags and Respective Packer Template Links
 
-  - [`0.102`, `latest`](https://github.com/alvistack/docker-clamav/blob/master/molecule/0.102/Dockerfile.j2)
+  - [`0.102`, `latest`](https://github.com/alvistack/docker-clamav/blob/master/packer/0.102/packer.json)
 
 ## Overview
 
@@ -19,8 +19,7 @@ This Docker container makes it easy to get an instance of clamav up and running.
 
 Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with some minor hack:
 
-  - Minimized `Dockerfile` for meta data definition
-  - Provision by Ansible and Molecule Docker driver in single layer
+  - Packaging by Packer Docker builder and Ansible provisioner in single layer
   - Handle `ENTRYPOINT` with [catatonit](https://github.com/openSUSE/catatonit)
 
 ### Quick Start
