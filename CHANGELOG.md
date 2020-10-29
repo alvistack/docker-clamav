@@ -4,6 +4,8 @@
 
 ### Major Changes
 
+  - Revamp with Packer
+
 ## 0.102.4-4alvistack5 - 2020-10-14
 
 ### Major Changes
