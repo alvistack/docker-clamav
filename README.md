@@ -11,7 +11,7 @@ Learn more about ClamAV: <https://www.clamav.net/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`0.102`, `latest`](https://github.com/alvistack/docker-clamav/blob/master/packer/0.102/packer.json)
+  - [`0.102`, `latest`](https://github.com/alvistack/docker-clamav/blob/master/packer/docker-0.102/packer.json)
 
 ## Overview
 
