@@ -1,6 +1,6 @@
 # Docker Image Packaging for ClamAV
 
-[![Travis](https://img.shields.io/travis/com/alvistack/docker-clamav.svg)](https://travis-ci.com/alvistack/docker-clamav)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-clamav/master)](https://gitlab.com/alvistack/docker-clamav/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/clamav.svg)](https://hub.docker.com/r/alvistack/clamav/)
