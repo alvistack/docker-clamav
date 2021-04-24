@@ -28,7 +28,7 @@ Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with s
 Start clamav:
 
     # Pull latest image
-    docker pull alvistack/clamav
+    docker pull alvistack/clamav-0.102
     
     # Run as detach
     docker run \
@@ -37,7 +37,7 @@ Start clamav:
         --name clamav \
         --volume /var/lib/clamav:/var/lib/clamav \
         --volume /host-fs:/host-fs \
-        alvistack/clamav
+        alvistack/clamav-0.102
 
 **Success**. clamav is now scanning your host directory `/host-fs`.
 
