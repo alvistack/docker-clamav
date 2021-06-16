@@ -4,7 +4,9 @@
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/clamav-0.102.svg)](https://hub.docker.com/r/alvistack/clamav-0.102)
+
 ClamAV is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.
+
 Learn more about ClamAV: <https://www.clamav.net/>
 
 ## Supported Tags and Respective Packer Template Links
@@ -15,6 +17,7 @@ Learn more about ClamAV: <https://www.clamav.net/>
 ## Overview
 
 This Docker container makes it easy to get an instance of clamav up and running.
+
 Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with some minor hack:
 
   - Packaging by Packer Docker builder and Ansible provisioner in single layer
@@ -23,16 +26,19 @@ Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with s
 ### Quick Start
 
 Start clamav:
-\# Pull latest image
-docker pull alvistack/clamav-0.102
-\# Run as detach
-docker run   
-\-itd   
-\--rm   
-\--name clamav   
-\--volume /var/lib/clamav:/var/lib/clamav   
-\--volume /host-fs:/host-fs   
-alvistack/clamav-0.102
+
+    # Pull latest image
+    docker pull alvistack/clamav-0.102
+    
+    # Run as detach
+    docker run \
+        -itd \
+        --rm \
+        --name clamav \
+        --volume /var/lib/clamav:/var/lib/clamav \
+        --volume /host-fs:/host-fs \
+        alvistack/clamav-0.102
+
 **Success**. clamav is now scanning your host directory `/host-fs`.
 
 ## Versioning
