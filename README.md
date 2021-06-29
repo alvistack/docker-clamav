@@ -3,7 +3,7 @@
 [![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-clamav/master)](https://gitlab.com/alvistack/docker-clamav/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/clamav-0.102.svg)](https://hub.docker.com/r/alvistack/clamav-0.102)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/clamav-0.103.svg)](https://hub.docker.com/r/alvistack/clamav-0.103)
 
 ClamAV is an open source antivirus engine for detecting trojans, viruses, malware & other malicious threats.
 
@@ -11,8 +11,8 @@ Learn more about ClamAV: <https://www.clamav.net/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`alvistack/clamav-0.102`](https://hub.docker.com/r/alvistack/clamav-0.102)
-      - [`packer/docker-0.102/packer.json`](https://github.com/alvistack/docker-clamav/blob/master/packer/docker-0.102/packer.json)
+  - [`alvistack/clamav-0.103`](https://hub.docker.com/r/alvistack/clamav-0.103)
+      - [`packer/docker-0.103/packer.json`](https://github.com/alvistack/docker-clamav/blob/master/packer/docker-0.103/packer.json)
 
 ## Overview
 
@@ -28,7 +28,7 @@ Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with s
 Start clamav:
 
     # Pull latest image
-    docker pull alvistack/clamav-0.102
+    docker pull alvistack/clamav-0.103
     
     # Run as detach
     docker run \
@@ -37,7 +37,7 @@ Start clamav:
         --name clamav \
         --volume /var/lib/clamav:/var/lib/clamav \
         --volume /host-fs:/host-fs \
-        alvistack/clamav-0.102
+        alvistack/clamav-0.103
 
 **Success**. clamav is now scanning your host directory `/host-fs`.
 

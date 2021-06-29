@@ -106,27 +106,27 @@ default:
   before_script:
     - *script-git-submodule
 
-build:docker-0.102:
+build:docker-0.103:
   <<: *job-packer-build
   stage: build
   cache:
-    key: "$CI_PIPELINE_ID-docker-0.102"
+    key: "$CI_PIPELINE_ID-docker-0.103"
     paths:
       - packer/*/output-docker
   variables:
     _PACKER_BUILDER_PROVIDER: "docker"
-    _PACKER_BUILDER_VERSION: "0.102"
+    _PACKER_BUILDER_VERSION: "0.103"
 
-deploy:docker-0.102:
+deploy:docker-0.103:
   <<: *job-docker-push
   stage: deploy
   cache:
-    key: "$CI_PIPELINE_ID-docker-0.102"
+    key: "$CI_PIPELINE_ID-docker-0.103"
     paths:
       - packer/*/output-docker
     policy: pull
   variables:
     _PACKER_BUILDER_PROVIDER: "docker"
-    _PACKER_BUILDER_VERSION: "0.102"
+    _PACKER_BUILDER_VERSION: "0.103"
   needs:
-    - build:docker-0.102
+    - build:docker-0.103
