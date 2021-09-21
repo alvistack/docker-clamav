@@ -1,5 +1,7 @@
 # Docker Image Packaging for ClamAV
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-clamav/master)](https://gitlab.com/alvistack/docker-clamav/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/blob/master/LICENSE)
