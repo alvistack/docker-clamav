@@ -3,7 +3,7 @@
 <img src="/alvistack.svg" width="75" alt="AlviStack">
 
 [![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-clamav/master)](https://gitlab.com/alvistack/docker-clamav/-/pipelines)
-[![GitHub release](https://img.shields.io/github/release/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/releases)
+[![GitHub tag](https://img.shields.io/github/tag/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/tags)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-clamav.svg)](https://github.com/alvistack/docker-clamav/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/clamav-0.103.svg)](https://hub.docker.com/r/alvistack/clamav-0.103)
 
@@ -47,7 +47,7 @@ Start clamav:
 
 ### `YYYYMMDD.Y.Z`
 
-Release tags could be find from [GitHub Release](https://github.com/alvistack/docker-clamav/releases) of this repository. Thus using these tags will ensure you are running the most up to date stable version of this image.
+Release tags could be find from [GitHub Release](https://github.com/alvistack/docker-clamav/tags) of this repository. Thus using these tags will ensure you are running the most up to date stable version of this image.
 
 ### `YYYYMMDD.0.0`
 
