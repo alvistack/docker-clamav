@@ -13,7 +13,7 @@
         "CMD [\"clamscan\", \"-v\", \"-r\", \"-i\", \"/host-fs\"]"
       ],
       "commit": true,
-      "image": "ubuntu:20.04",
+      "image": "ubuntu:22.04",
       "privileged": true,
       "type": "docker"
     }
