@@ -15,7 +15,7 @@
 # limitations under the License.
 
 namespace: alvistack
-name: docker-clamav
+name: clamav
 description: Docker Image Packaging for ClamAV
 
 version: 0.0.0
